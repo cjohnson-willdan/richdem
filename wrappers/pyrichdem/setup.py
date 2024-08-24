@@ -94,7 +94,8 @@ setuptools.setup(
   keywords         = 'GIS terrain hydrology geomorphology raster',
   install_requires = [
     "numpy>=1.7,<2; python_version > '3.4' or python_version < '3.0'",
-    "numpy>=1.7,<1.12; python_version < '3.4' and python_version > '3.0'"
+    "numpy>=1.7,<1.12; python_version < '3.4' and python_version > '3.0'",
+    "pybind11"
   ],
 
   #TODO: https://pypi.python.org/pypi?%3Aaction=list_classifiers
